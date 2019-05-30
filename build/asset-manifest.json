@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d5bb1e2.chunk.css",
+    "main.js": "/static/js/main.1d868a9a.chunk.js",
+    "main.js.map": "/static/js/main.1d868a9a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.77504f2a.chunk.js": "/static/js/2.77504f2a.chunk.js",
+    "static/js/2.77504f2a.chunk.js.map": "/static/js/2.77504f2a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dcda23aa7bef6f960cb8e8159eaae869.js": "/precache-manifest.dcda23aa7bef6f960cb8e8159eaae869.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6d5bb1e2.chunk.css.map": "/static/css/main.6d5bb1e2.chunk.css.map",
+    "static/media/disturbi.svg": "/static/media/disturbi.72e9461f.svg",
+    "static/media/gravidanza.svg": "/static/media/gravidanza.3c1ae2fc.svg",
+    "static/media/ipnosi.svg": "/static/media/ipnosi.b9f0b0dc.svg",
+    "static/media/marko-nikolajevic-logo.svg": "/static/media/marko-nikolajevic-logo.6bb0a3cf.svg",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.5db2517e.jpg",
+    "static/media/psicosomatica.svg": "/static/media/psicosomatica.a54d9e47.svg"
+  }
+}
