@@ -5,13 +5,11 @@ import HamburgerMenu from './HamburgerMenu'
 
 function Navbar() {
   return (
-    <nav role='navigation'>
-      <h1 className='brand-name'>
-        Pamela Gotti
-      </h1>
-      <h2 className='subtitle'>
-        Psicologa Psicoterapeuta
-      </h2>
+    <nav role='navigation' className='nav-flex'>
+      <p className='brand-name'>
+        Pamela Gotti <br/>
+        <span className='subtitle'>Psicologa Psicoterapeuta</span>
+      </p>
       <MediaQuery query='(max-width: 768px)'>
         <HamburgerMenu />
       </MediaQuery>
