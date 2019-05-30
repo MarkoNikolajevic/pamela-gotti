@@ -33,7 +33,7 @@ function Therapy() {
         />
         <Card
           card={{
-            image: 'gravidanza',
+            image: gravidanza,
             imgAlt: 'Gravidanza',
             title: 'Preparazione al parto',
             info: "Training di preparazione al parto mediante induzione ipnotica. Una donna che si prepara a partorire porta con sé credenze e convinzioni di vario tipo, caricate emotivamente da ansie anticipatorie e da una certa confusione rispetto a ciò che dovrà effettivamente accadere.",
