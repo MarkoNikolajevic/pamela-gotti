@@ -8,7 +8,7 @@ import psicosomatica from '../../img/psicosomatica.svg'
 function Therapy() {
   return (
     <section id='therapy'>
-      <div className='contaier'>
+      <div className='container'>
         <h3 className='section-title'>Di cosa mi occupo</h3>
         <div className='divider'></div>
         <Card
