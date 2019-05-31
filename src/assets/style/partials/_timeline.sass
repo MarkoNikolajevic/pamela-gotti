@@ -1,0 +1,57 @@
+.timeline
+  position: relative
+  max-width: 1200px
+  margin: 0 auto
+  &::after
+    content: ''
+    position: absolute
+    width: 6px
+    background: $primaryColor
+    top: 0
+    bottom: 0
+    left: 50%
+    margin-left: -3px
+
+  .timeline-container
+    padding: 10px 40px
+    position: relative
+    background: inherit
+    width: 50%
+    &::after
+      content: ''
+      position: absolute
+      width: 25px
+      height: 25px
+      right: -17px
+      background: $lightColor
+      border: 3px solid $primaryColor
+      top: 15px
+      border-radius: 50%
+      z-index: 3
+
+  .left
+    left: 0
+    &::after
+      left: 61.5%
+    &::before
+      content: ''
+      height: 0
+      position: absolute
+      top: 22px
+      width: 0
+      z-index: 3
+      right: 30px
+      border: medium solid black
+      border-width: 10px 0 10px 10px
+      border-color: transparent transparent transparent white
+
+  .right
+    left: 50%
+    &::after
+      left: -6%
+
+  .content
+    padding: 20px 30px
+    background: $lightColor
+    position: relative
+    border-radius: 6px
