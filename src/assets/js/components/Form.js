@@ -25,6 +25,7 @@ class Form extends React.Component {
   render() {
     return (
       <section id='contact'>
+        <h3 className='section-title'>Contattami</h3>
         <form
           action='#'
           method='POST'
@@ -35,7 +36,7 @@ class Form extends React.Component {
             id='name'
             type='text'
             name='name'
-            placeholer='Scrivi il tuo nome'
+            placeholder='Scrivi il tuo nome'
             onChange={this.handleChange}
             required
           />
@@ -44,16 +45,16 @@ class Form extends React.Component {
             id='email'
             type='email'
             name='_replyto'
-            placeholer='Scrivi la tua email'
+            placeholder='Scrivi la tua email'
             onChange={this.handleChange}
             required
           />
-          <label htmlFor='email'>Email</label>
+          <label htmlFor='message'>Messaggio</label>
           <textarea
-            id='email'
+            id='message'
             rows='7'
             name='message'
-            placeholer='Scrivi il tuo messaggio'
+            placeholder='Scrivi il tuo messaggio'
             onChange={this.handleChange}
             required
           >
