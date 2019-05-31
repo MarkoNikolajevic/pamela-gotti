@@ -1,0 +1,22 @@
+.card
+  display: flex
+  flex-direction: column
+  margin-top: $gutterWidth
+  +justifyText
+
+  .card-title
+    text-transform: uppercase
+    text-align: center
+    letter-spacing: 1.3px
+
+  .card-info
+    +justifyText
+    line-height: 1.3rem
+    letter-spacing: 1.05px
+
+  .card-link
+    padding-left: 5px
+    color: $accentColor
+    +transition
+    &:hover
+      color: darken($accentColor, 30)
