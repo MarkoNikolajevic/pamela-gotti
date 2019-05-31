@@ -45,7 +45,7 @@ function Therapy() {
           card={{
             image: disturbi,
             imgAlt: 'Disturbi trattati',
-            title: 'Disturbu trattati',
+            title: 'Disturbi trattati',
             info: "- Depressione - Ansia - Attacchi di panico - Disturbi alimentari - Disturbi sessuali - Dipendenze",
           }}
         />
