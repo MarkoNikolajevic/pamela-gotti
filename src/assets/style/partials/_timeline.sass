@@ -15,17 +15,15 @@ $line: 4px
   border-bottom-right-radius: $radius
   border-top-right-radius: $radius
   color: $darkColor
-  margin: (2 * $gutterWidth) auto
+  margin: $gutterWidth auto
   letter-spacing: 0.7px
   position: relative
   line-height: 1.4em
   padding: $spacing
-  text-align: left
-  max-width: 40%
+  max-width: 50%
 
   .event
-    padding-bottom: ($spacing * 0.5)
-    margin-bottom: $spacing
+    padding-bottom: $spacing
     position: relative
 
     &:last-of-type
@@ -60,3 +58,6 @@ $line: 4px
       width: 11px
       content: ''
       top: 5px
+
+  .event-info
+    +justifyText
