@@ -1,57 +1,62 @@
+// Style and ispiration taken from Alan Houser https://codepen.io/alanhouser/pen/aErrQJ?editors=0100
+
+$spacing: 50px
+$radius: 4px
+
+$date: 120px
+$dotborder: 4px
+$dot: 11px
+$line: 4px
+
+/* Timeline */
+
 .timeline
+  border-left: 5px solid $primaryColor
+  border-bottom-right-radius: $radius
+  border-top-right-radius: $radius
+  color: $darkColor
+  margin: (2 * $gutterWidth) auto
+  letter-spacing: 0.7px
   position: relative
-  max-width: 1200px
-  margin: 0 auto
-  &::after
-    content: ''
-    position: absolute
-    width: 6px
-    background: $primaryColor
-    top: 0
-    bottom: 0
-    left: 50%
-    margin-left: -3px
+  line-height: 1.4em
+  padding: $spacing
+  text-align: left
+  max-width: 40%
 
-  .timeline-container
-    padding: 10px 40px
+  .event
+    padding-bottom: ($spacing * 0.5)
+    margin-bottom: $spacing
     position: relative
-    background: inherit
-    width: 50%
-    &::after
-      content: ''
-      position: absolute
-      width: 25px
-      height: 25px
-      right: -17px
-      background: $lightColor
-      border: 3px solid $primaryColor
-      top: 15px
-      border-radius: 50%
-      z-index: 3
 
-  .left
-    left: 0
+    &:last-of-type
+      padding-bottom: 0
+      margin-bottom: 0
+      border: none
+
+
+    &::before,
     &::after
-      left: 61.5%
+      position: absolute
+      display: block
+      top: 0
+
+
     &::before
+      padding-left: $gutterWidth
+      left: ((($date * 0.6) + $spacing + $line + $dot + ($dotborder * 2)) * 1.5) * -1
+      color: $darkColor
+      content: attr(data-date)
+      text-align: right
+      min-width: 120px
+      opacity: 0.7
+
+
+    &:after
+      box-shadow: 0 0 0 3px $primaryColor
+      left: ($spacing + $line + ($dot * 0.35)) * -1
+      background: $lightColor
+      border-radius: 50%
+      height: 11px
+      width: 11px
       content: ''
-      height: 0
-      position: absolute
-      top: 22px
-      width: 0
-      z-index: 3
-      right: 30px
-      border: medium solid black
-      border-width: 10px 0 10px 10px
-      border-color: transparent transparent transparent white
-
-  .right
-    left: 50%
-    &::after
-      left: -6%
-
-  .content
-    padding: 20px 30px
-    background: $lightColor
-    position: relative
-    border-radius: 6px
+      top: 5px
