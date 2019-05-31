@@ -13,7 +13,7 @@ function Footer() {
         <p>P.IVA 01275270328</p>
         <p>creato da
           <a href='https://www.markonikolajevic.com/' target='_blank' rel='noopener noreferrer'>
-            <img src={markoNikolajevicLogo} alt='Marko Nikolajevic logo'/>
+            <img className='dev-logo' src={markoNikolajevicLogo} alt='Marko Nikolajevic logo'/>
           </a>
         </p>
       </div>
