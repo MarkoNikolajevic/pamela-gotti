@@ -22,5 +22,22 @@
     textarea
       padding: 7px 3px
       letter-spacing: 1px
-      &::placeholer
+      &:focus
+        outline: 2px solid $primaryColor
+      &::placeholder
         opacity: 0.7
+
+    .submit-btn
+      width: 220px
+      height: 40px
+      background: $accentColor
+      cursor: pointer
+      border: 1px solid $accentColor
+      text-transform: uppercase
+      border-radius: 5px
+      color: $lightColor
+      margin: 1rem auto
+      +transition
+      &:hover
+        background: darken($accentColor, 30)
+        transform: translateY(-2px)
