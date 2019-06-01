@@ -1,12 +1,9 @@
 import React from 'react'
-import MediaQuery from 'react-responsive'
 
 function Card(props) {
   return (
     <div className='card'>
-      <MediaQuery  query='(min-width: 800px)'>
-        <img src={props.card.image} alt={props.card.imgAlt}/>
-      </MediaQuery>
+      <img className='card-img' src={props.card.image} alt={props.card.imgAlt}/>
       <h4 className='card-title'>{props.card.title}</h4>
       <p className='card-info'>
         {props.card.info}
