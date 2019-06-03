@@ -47,6 +47,12 @@ function Timeline(props) {
                       APL- Associazione Psicologi Lombardia`
         }}
       />
+      <Events
+        timeline={{
+          date: '2019',
+          studyInfo: `Conseguimento del titolo di 'Consulente Sessuale' presso l'Aispa di Mestre`
+        }}
+      />
     </div>
   )
 }
