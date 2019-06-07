@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/App.sass'
 import Navbar from './components/Navbar.js'
+import NavMobile from './components/NavMobile.js'
 import AboutMe from './components/AboutMe.js'
 import Study from './components/Study.js'
 import Therapy from './components/Therapy.js'
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <NavMobile />
       <AboutMe />
       <Study />
       <Therapy />
