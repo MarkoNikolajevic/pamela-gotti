@@ -8,7 +8,7 @@ function Navbar() {
     <nav role='navigation' className='nav-flex'>
       <p className='brand-name'>
         Pamela Gotti <br/>
-        <span className='subtitle'>Psicologa</span>
+        <span className='subtitle'>Psicologa - Ipnologa - Consulente sessuale</span>
       </p>
       <MediaQuery query='(max-width: 768px)'>
         <HamburgerMenu />
