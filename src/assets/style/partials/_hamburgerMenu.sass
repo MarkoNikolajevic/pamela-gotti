@@ -12,3 +12,13 @@
     margin: 6px 0
     border-radius: 50px
     +transition
+
+.animated-menu
+  transform: rotateZ(90deg)
+  .bar
+    &:first-child
+      transform: rotateZ(45deg) translate(16px, -9px)
+      width: 50%
+    &:last-child
+      transform: rotateZ(-45deg) translate(16px, 9px)
+      width: 50%
