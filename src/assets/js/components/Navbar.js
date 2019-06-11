@@ -10,10 +10,10 @@ function Navbar() {
         Pamela Gotti <br/>
         <span className='subtitle'>Psicologa - Ipnologa - Consulente sessuale</span>
       </p>
-      <MediaQuery query='(max-width: 768px)'>
+      <MediaQuery query='(max-width: 1059px)'>
         <HamburgerMenu />
       </MediaQuery>
-      <MediaQuery query='(min-width: 769px)'>
+      <MediaQuery query='(min-width: 1060px)'>
         <NavLink
           link={{url: '#about', text: 'Su di me'}}
         />
