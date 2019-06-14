@@ -2,15 +2,14 @@
   background: $lightColor
 
 .container
-  display: flex
-  flex-direction: column
+  display: grid
+  justify-items: center
   padding: 0 $gutterWidth
   margin: $gutterWidth auto
-  align-items: center
+  grid-template-columns: 1fr
 
   .profile-pic
     width: 250px
-    height: 250px
     border-radius: 25px
 
   .personal-desc
@@ -18,3 +17,20 @@
     margin-top: $gutterWidth
     line-height: 1.3rem
     +justifyText
+
+// Media queries
+@media screen and (min-width: 768px)
+  #about
+    .container
+      width: 80%
+
+      .profile-pic
+        align-self: center
+        width: 400px
+
+@media screen and (min-width: 1059px)
+  #about
+    .container
+      width: 80%
+      grid-gap: $gutterWidth
+      grid-template-columns: 1fr 2fr
