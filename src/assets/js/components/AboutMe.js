@@ -18,11 +18,11 @@ function AboutMe() {
 
         Dal 2009 sono iscritta all'albo degli Psicologi del Friuli Venezia Giulia (n.1213).
         Nel 2016 ho svolto un Master in Ipnosi Clinica presso APL a Milano e nello stesso
-        anno ho conseguito il titolo di “Facilitatore inPsicogenealogia e Costellazioni
+        anno ho conseguito il titolo di “Facilitatore in Psicogenealogia e Costellazioni
         Familiari ad approccio Immaginale” (iscrizione Aiscon). Ho svolto alcuni percorsi
         di analisi personale (in particolare attraverso la Psicosintesi e la Spagyria)
         che si sono rivelati utili anche a livello professionale. Da molti anni inoltre mi
-        interesso diFloriterapia (Fiori di Bach e Californiani) che utilizzo molto spesso
+        interesso di Floriterapia (Fiori di Bach e Californiani) che utilizzo molto spesso
         per coaudiuvare il processo terapeutico.
 
         Il mio percorso di autoconoscenza, miglioramento e formazione è tuttora in corso e
