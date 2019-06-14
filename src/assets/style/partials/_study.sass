@@ -15,3 +15,25 @@
       padding: 0
       li
         padding: ($gutterWidth / 2)
+
+
+@media screen and (min-width: 1024px)
+  .section-title
+    font-size: 1.5rem
+
+  #timeline
+    grid-area: timeline
+
+  #study-img
+    grid-area: study-img
+    width: 100%
+    align-self: center
+
+  #pubblicazioni
+    grid-area: pubblicazioni
+
+  .study-grid
+    width: 80%
+    display: grid
+    grid-template-columns: 60% 40%
+    grid-template-areas: "timeline study-img" "timeline study-img" "timeline pubblicazioni" "timeline pubblicazioni"
