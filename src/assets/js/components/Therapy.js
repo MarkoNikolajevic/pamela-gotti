@@ -47,14 +47,12 @@ function Therapy() {
               image: disturbi,
               imgAlt: 'Disturbi trattati',
               title: 'Disturbi trattati',
-              info: `
-                    Depressione
+              info: `Depressione
                     Ansia
                     Attacchi di panico
                     Disturbi alimentari
                     Disturbi sessuali
-                    Dipendenze
-                    `
+                    Dipendenze`
             }}
           />
         </div>
