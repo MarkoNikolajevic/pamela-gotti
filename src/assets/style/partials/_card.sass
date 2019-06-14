@@ -23,3 +23,20 @@
     +transition
     &:hover
       color: darken($accentColor, 30)
+
+@media screen and (min-width: 1024px)
+  .card
+    display: flex
+    margin: 1rem 0
+    &:nth-child(odd)
+      flex-direction: row
+    &:nth-child(even)
+      flex-direction: row-reverse
+
+    .card-img
+      width: 40%
+      align-self: flex-start
+
+    .card-info
+      margin-left: $gutterWidth
+      padding: 0 1rem
