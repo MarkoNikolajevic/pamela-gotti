@@ -23,6 +23,10 @@
         &:hover
           color: $accentColor
 
+@media screen and (min-width: 600px)
+  .study-grid
+    width: 80%
+
 @media screen and (min-width: 1024px)
   .section-title
     font-size: 1.5rem
@@ -39,7 +43,6 @@
     grid-area: pubblicazioni
 
   .study-grid
-    width: 80%
     display: grid
     grid-template-columns: 60% 40%
     grid-template-areas: "timeline study-img" "timeline study-img" "timeline pubblicazioni" "timeline pubblicazioni"
