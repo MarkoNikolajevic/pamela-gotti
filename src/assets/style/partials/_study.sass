@@ -16,6 +16,12 @@
       li
         padding: ($gutterWidth / 2)
 
+      .book-link
+        text-decoration: none
+        color: darken($accentColor, 20)
+        +transition
+        &:hover
+          color: $accentColor
 
 @media screen and (min-width: 1024px)
   .section-title
