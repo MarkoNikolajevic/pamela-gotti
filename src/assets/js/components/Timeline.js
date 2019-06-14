@@ -3,7 +3,7 @@ import Events from './Events.js'
 
 function Timeline(props) {
   return (
-    <div className='timeline'>
+    <div className='timeline' id='timeline'>
       <Events
         timeline={{
           date: '1997',
