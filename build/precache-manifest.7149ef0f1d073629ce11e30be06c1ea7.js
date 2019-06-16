@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25af781f29b8deb92cc21a619a974a5e",
+    "revision": "0e822991e4d220e29595e5a1a5af21ca",
     "url": "/index.html"
   },
   {
-    "revision": "f72db7b9dd976ad892fd",
-    "url": "/static/css/main.bb731016.chunk.css"
+    "revision": "a24440b19a8767f3173e",
+    "url": "/static/css/main.bb2a9b69.chunk.css"
   },
   {
-    "revision": "876313f2e98868bbeef5",
-    "url": "/static/js/2.3a9b9f8b.chunk.js"
+    "revision": "126665bac624e0b386e7",
+    "url": "/static/js/2.8998c7e3.chunk.js"
   },
   {
-    "revision": "f72db7b9dd976ad892fd",
-    "url": "/static/js/main.a22dc60c.chunk.js"
+    "revision": "a24440b19a8767f3173e",
+    "url": "/static/js/main.7b86547f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a54d9e47adf80bdd4e35a17f9bf52120",
     "url": "/static/media/psicosomatica.a54d9e47.svg"
+  },
+  {
+    "revision": "86098a7a09c784265f4afd0bfd55b4dc",
+    "url": "/static/media/pubblicazioni.86098a7a.svg"
   }
 ]);
