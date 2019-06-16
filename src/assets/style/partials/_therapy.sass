@@ -14,10 +14,16 @@
       margin: 10px auto 0 auto
       border-radius: 50px
 
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 500px)
   #therapy
     .card-wrapper
       width: 70%
       margin: $gutterWidth auto
       display: grid
       grid-gap: $gutterWidth
+      grid-template-columns: 1fr 1fr
+
+@media screen and (min-width: 1024px)
+  #therapy
+    .card-wrapper
+      grid-template-columns: 1fr
