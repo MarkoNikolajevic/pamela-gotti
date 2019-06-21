@@ -7,9 +7,9 @@ function AboutMe() {
     <section id='about'>
       <ScrollAnimation 
         animateIn='fadeIn'
-        animateOnce='true'
-        delay='1'
-        duration='2'>
+        animateOnce={true}
+        delay={1}
+        duration={2}>
         <div className='container'>
           <img src={profilePic} alt='Pamela Gotti' className='profile-pic' />
           <p className='personal-desc'>

@@ -15,7 +15,7 @@ function Therapy() {
         <div className='card-wrapper'>
           <ScrollAnimation
             animateIn='slideInLeft'
-            animateOnce='true'>
+            animateOnce={true}>
             <Card
               card={{
                 image: psicosomatica,
@@ -29,7 +29,7 @@ function Therapy() {
           </ScrollAnimation>
           <ScrollAnimation
             animateIn='slideInRight'
-            animateOnce='true'>
+            animateOnce={true}>
             <Card
               card={{
                 image: ipnosi,
@@ -43,7 +43,7 @@ function Therapy() {
           </ScrollAnimation>
           <ScrollAnimation
             animateIn='slideInLeft'
-            animateOnce='true'>
+            animateOnce={true}>
             <Card
               card={{
                 image: gravidanza,
@@ -57,7 +57,7 @@ function Therapy() {
           </ScrollAnimation>
           <ScrollAnimation
             animateIn='slideInRight'
-            animateOnce='true'>
+            animateOnce={true}>
             <Card
               card={{
                 image: disturbi,
