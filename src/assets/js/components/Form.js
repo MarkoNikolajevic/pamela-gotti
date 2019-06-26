@@ -27,7 +27,7 @@ class Form extends React.Component {
       <section id='contact'>
         <h3 className='section-title'>Contattami</h3>
         <form
-          action='#'
+          action='https://formspree.io/pamelagotti@libero.it'
           method='POST'
           className='form'
         >
