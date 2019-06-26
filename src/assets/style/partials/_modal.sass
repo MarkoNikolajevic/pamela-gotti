@@ -1,0 +1,73 @@
+.modal
+  position: absolute
+  top: 40px
+  left: 40px
+  right: 40px
+  bottom: 40px
+  background: $lightColor
+  border: 1px solid $primaryColor
+  padding: $gutterWidth
+  +justifyText
+  letter-spacing: 1.3px
+  overflow: scroll
+  +transition
+  &:focus
+    outline: 1px solid $primaryColor
+
+.modal-title
+  text-transform: uppercase
+  margin-bottom: $gutterWidth
+  text-align: center
+
+.modal-img
+  width: 40%
+  float: left
+  margin: 0 1rem 1rem 0
+
+.read-more-text
+  line-height: 1.5rem
+
+.modal-btn
+  background: $primaryColor
+  border: none
+  width: 50px
+  height: 50px
+  border-radius: 50%
+  float: right
+  margin-right: 1rem
+  cursor: pointer
+  +transition
+  &:hover
+    background: darken($primaryColor, 30)
+    transform: translateY(-2px)
+
+  i
+    color: $lightColor
+    vertical-align: middle
+    font-size: 2rem
+
+.overlay
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: rgba(255, 230, 230, 0.8)
+  opacity: 0
+  +transition
+
+.ReactModal__Overlay--after-open
+    opacity: 1
+
+.ReactModal__Overlay--before-close
+    opacity: 0
+
+#hidden
+  visibility: hidden
+
+@media screen and (max-width: 500px)
+  .modal
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
