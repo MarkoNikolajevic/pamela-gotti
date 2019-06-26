@@ -105,7 +105,8 @@ function Therapy() {
                     Attacchi di panico
                     Disturbi alimentari
                     Disturbi sessuali
-                    Dipendenze`
+                    Dipendenze`,
+                id: 'hidden'
               }}
             />
           </ScrollAnimation>
