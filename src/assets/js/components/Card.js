@@ -1,6 +1,17 @@
 import React from 'react'
 import ReactModal from 'react-modal'
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock'
+
 class Card extends React.Component {
+  targetElement = null;
+  componentDidMount() {
+    this.targetElement = document.querySelector('.modal');
+  }
+
+  componentWillUnmount() {
+    clearAllBodyScrollLocks();
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -12,10 +23,12 @@ class Card extends React.Component {
 
   handleOpenModal() {
     this.setState({ showModal: true });
+    disableBodyScroll(this.targetElement);
   }
 
   handleCloseModel() {
     this.setState({ showModal: false });
+    enableBodyScroll(this.targetElement);
   }
 
   render() {
