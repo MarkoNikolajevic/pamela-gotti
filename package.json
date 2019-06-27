@@ -4,6 +4,7 @@
   "private": true,
   "description": "Personal site of the psychologist Pamela Gotti",
   "dependencies": {
+    "body-scroll-lock": "^2.6.1",
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.8.6",
