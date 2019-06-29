@@ -18,7 +18,7 @@ class Card extends React.Component {
       showModal: false
     };
     this.handleOpenModal = this.handleOpenModal.bind(this);
-    this.handleCloseModel = this.handleCloseModel.bind(this);
+    this.handleCloseModal = this.handleCloseModel.bind(this);
   }
 
   handleOpenModal() {
@@ -48,7 +48,7 @@ class Card extends React.Component {
               overlayClassName='overlay'
               ariaHideApp={false}
             >
-              <button className='modal-btn' onClick={this.handleCloseModel}><i className="material-icons">close</i></button>
+              <button className='modal-btn close-modal-fixed-btn' onClick={this.handleCloseModal}><i className="material-icons">close</i></button>
               <h3 className='modal-title'>{this.props.card.title}</h3>
               <img className='card-img modal-img' src={this.props.card.image} alt={this.props.card.imgAlt} />
               <p className='read-more-text'>
