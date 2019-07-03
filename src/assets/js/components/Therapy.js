@@ -106,7 +106,8 @@ function Therapy() {
                     Disturbi alimentari
                     Disturbi sessuali
                     Dipendenze`,
-                id: 'hidden'
+                infoId: 'center-text',
+                btnId: 'hidden'
               }}
             />
           </ScrollAnimation>

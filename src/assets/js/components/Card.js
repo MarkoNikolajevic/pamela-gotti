@@ -41,7 +41,7 @@ class Card extends React.Component {
         <img className='card-img' src={this.props.card.image} alt={this.props.card.imgAlt} />
         <div className='card-text'>
           <h4 className='card-title'>{this.props.card.title}</h4>
-          <p className='card-info'>
+          <p className='card-info' id={this.props.card.infoId}>
             {this.props.card.info}
             <ReactModal
               closeTimeoutMS={500}
@@ -60,7 +60,7 @@ class Card extends React.Component {
               </p>
             </ReactModal>
           </p>
-          <button className='modal-btn' id={this.props.card.id} onClick={this.handleOpenModal}><i className="material-icons">expand_more</i></button>
+          <button className='modal-btn' id={this.props.card.btnId} onClick={this.handleOpenModal}><i className="material-icons">expand_more</i></button>
         </div>
       </div>
     )
