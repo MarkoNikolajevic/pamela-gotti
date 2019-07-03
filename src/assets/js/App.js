@@ -7,6 +7,7 @@ import Study from './components/Study.js'
 import Therapy from './components/Therapy.js'
 import Form from './components/Form.js'
 import Footer from './components/Footer.js'
+import ScrollToTopBtn from './components/ScrollToTopBtn';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Therapy />
       <Form />
       <Footer />
+      <ScrollToTopBtn />
     </div>
   )
 }
