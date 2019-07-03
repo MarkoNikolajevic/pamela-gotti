@@ -11,6 +11,7 @@ function Footer() {
         <p>pamelagotti@libero.it</p>
         <p>www.pamelagotti.it</p>
         <p>P.IVA 01275270328</p>
+        <br />
         <p>creato da
           <a href='https://www.markonikolajevic.com/' target='_blank' rel='noopener noreferrer'>
             <img className='dev-logo' src={markoNikolajevicLogo} alt='Marko Nikolajevic logo'/>
