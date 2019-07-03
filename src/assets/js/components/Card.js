@@ -24,11 +24,15 @@ class Card extends React.Component {
   handleOpenModal() {
     this.setState({ showModal: true });
     disableBodyScroll(this.targetElement);
+    const fab = document.querySelector('.fab-btn');
+    fab.style.visibility = 'hidden';
   }
 
   handleCloseModel() {
     this.setState({ showModal: false });
     enableBodyScroll(this.targetElement);
+    const fab = document.querySelector('.fab-btn');
+    fab.style.visibility = 'visible';
   }
 
   render() {
