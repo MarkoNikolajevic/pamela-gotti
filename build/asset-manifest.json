@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5346146c.chunk.css",
+    "main.css": "/static/css/main.452a3d07.chunk.css",
     "main.js": "/static/js/main.628d2756.chunk.js",
     "main.js.map": "/static/js/main.628d2756.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.a56b1e17.chunk.js": "/static/js/2.a56b1e17.chunk.js",
     "static/js/2.a56b1e17.chunk.js.map": "/static/js/2.a56b1e17.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1a21f9412a599cb6c1661aec237df93d.js": "/precache-manifest.1a21f9412a599cb6c1661aec237df93d.js",
+    "precache-manifest.54f7da88f819d69c22b695d47c4e99bd.js": "/precache-manifest.54f7da88f819d69c22b695d47c4e99bd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5346146c.chunk.css.map": "/static/css/main.5346146c.chunk.css.map",
+    "static/css/main.452a3d07.chunk.css.map": "/static/css/main.452a3d07.chunk.css.map",
     "static/media/disturbi.svg": "/static/media/disturbi.72e9461f.svg",
     "static/media/gravidanza.svg": "/static/media/gravidanza.3c1ae2fc.svg",
     "static/media/ipnosi.svg": "/static/media/ipnosi.b9f0b0dc.svg",
