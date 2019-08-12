@@ -4,6 +4,7 @@ import disturbi from '../../img/disturbi.svg'
 import gravidanza from '../../img/gravidanza.svg'
 import ipnosi from '../../img/ipnosi.svg'
 import psicosomatica from '../../img/psicosomatica.svg'
+import sessuologia from '../../img/sessuologia.svg'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 function Therapy() {
@@ -71,6 +72,29 @@ function Therapy() {
             animateOnce={true}>
             <Card
               card={{
+                image: sessuologia,
+                imgAlt: 'Consulenza sessuologica',
+                title: 'Consulenza Sessuologica',
+                info: "Negli ultimi decenni si parla sempre più spesso di salute sessuale che si riferisce a un'integrazione nella persona degli aspetti somatici, affettivi, intellettivi e sociali che la sessualità veicola.",
+                readMore: 'Continua a leggere',
+                article: `Negli ultimi decenni si parla sempre più spesso di salute sessuale che si riferisce a un'integrazione nella persona degli aspetti somatici, affettivi, intellettivi e sociali che la sessualità veicola.
+                          Ormai è riconosciuto che una sana espressione sessuale è fonte di arricchimento personale, di comunicazione e di amore.
+                          Da questo punto di vista è chiaro come dei problemi in quest'area generino delle difficoltà che coinvolgono ogni aspetto della vita, sia a livello personale, sia a livello intrapsichico. L'uso di farmaci
+                          come il Viagra, il Cialis... di facile reperimento non può essere certamente risolutivo, soprattutto quando le radici del problema affondano nel terreno dei conflitti inconsci, dei tabù e dei pregiudizi.
+                          In questo senso la consulenza sessuologica può essere di grande aiuto per guidare la persona e la coppia a chiarire il proprio disagio e a darne una definizione, acquisire nuove conoscenze, abbandonare false
+                          credenze e stimolare dei cambiamenti fruttuosi.
+                          Le problematiche affrontate più frequentemente sono il calo del desiderio (disturbo da desiderio ipoattivo), la disfunzione erettile, l'eiaculazione precoce e ritardata, la dipendenza sessuale, l'anorgasmia...
+                          Il percorso sessuologico consiste in una sempre maggiore conoscenza di sé, del proprio corpo e dei propri bisogni, nella presa di coscienza dei propri conflitti, nella diminuzione dell'ansia e nell'incremento di una
+                          comunicazione efficace all'interno della coppia.
+                          In alcuni casi tale processo può essere facilitato dall'uso dell'ipnosi in sessioni individuali, tecnica che rende più semplice e veloce la trasformazione di aspetti inconsci limitanti in risorse nuove ed efficaci.`
+              }}
+            />
+          </ScrollAnimation>
+          <ScrollAnimation
+            animateIn='slideInRight'
+            animateOnce={true}>
+            <Card
+              card={{
                 image: gravidanza,
                 imgAlt: 'Gravidanza',
                 title: 'Preparazione al parto',
@@ -93,7 +117,7 @@ function Therapy() {
             />
           </ScrollAnimation>
           <ScrollAnimation
-            animateIn='slideInRight'
+            animateIn='slideInLeft'
             animateOnce={true}>
             <Card
               card={{
