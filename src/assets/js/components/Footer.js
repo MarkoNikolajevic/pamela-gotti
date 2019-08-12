@@ -33,7 +33,7 @@ class Footer extends React.Component {
           <p>Via di Donota, 28 34121 Trieste</p>
           <p>345-1660590</p>
           <p>pamelagotti@libero.it</p>
-          <p>www.pamelagotti.it</p>
+          <p>www.pamelagotti.com</p>
           <p>P.IVA 01275270328</p>
           <ReactModal
             closeTimeoutMS={500}
