@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb9a78df64bf3176097b7ffc3098edc6",
+    "revision": "376aa028fe5025deb62a673285f0e921",
     "url": "/index.html"
   },
   {
-    "revision": "7584674865973cf4f4c0",
+    "revision": "5ee333149424080ba6f2",
     "url": "/static/css/main.452a3d07.chunk.css"
   },
   {
-    "revision": "1950495db4dbc62ea987",
-    "url": "/static/js/2.a56b1e17.chunk.js"
+    "revision": "8e04e4e5f54b7243dade",
+    "url": "/static/js/2.53ee23c3.chunk.js"
   },
   {
-    "revision": "7584674865973cf4f4c0",
-    "url": "/static/js/main.628d2756.chunk.js"
+    "revision": "5ee333149424080ba6f2",
+    "url": "/static/js/main.00798afa.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "86098a7a09c784265f4afd0bfd55b4dc",
     "url": "/static/media/pubblicazioni.86098a7a.svg"
+  },
+  {
+    "revision": "7152f5f6432277d4e2b764dda41e57c7",
+    "url": "/static/media/sessuologia.7152f5f6.svg"
   }
 ]);

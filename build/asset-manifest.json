@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.452a3d07.chunk.css",
-    "main.js": "/static/js/main.628d2756.chunk.js",
-    "main.js.map": "/static/js/main.628d2756.chunk.js.map",
+    "main.js": "/static/js/main.00798afa.chunk.js",
+    "main.js.map": "/static/js/main.00798afa.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.a56b1e17.chunk.js": "/static/js/2.a56b1e17.chunk.js",
-    "static/js/2.a56b1e17.chunk.js.map": "/static/js/2.a56b1e17.chunk.js.map",
+    "static/js/2.53ee23c3.chunk.js": "/static/js/2.53ee23c3.chunk.js",
+    "static/js/2.53ee23c3.chunk.js.map": "/static/js/2.53ee23c3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.54f7da88f819d69c22b695d47c4e99bd.js": "/precache-manifest.54f7da88f819d69c22b695d47c4e99bd.js",
+    "precache-manifest.753fcf74a0a01de956a2c1e675563040.js": "/precache-manifest.753fcf74a0a01de956a2c1e675563040.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.452a3d07.chunk.css.map": "/static/css/main.452a3d07.chunk.css.map",
     "static/media/disturbi.svg": "/static/media/disturbi.72e9461f.svg",
@@ -17,6 +17,7 @@
     "static/media/marko-nikolajevic-logo.svg": "/static/media/marko-nikolajevic-logo.6bb0a3cf.svg",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.5db2517e.jpg",
     "static/media/psicosomatica.svg": "/static/media/psicosomatica.a54d9e47.svg",
-    "static/media/pubblicazioni.svg": "/static/media/pubblicazioni.86098a7a.svg"
+    "static/media/pubblicazioni.svg": "/static/media/pubblicazioni.86098a7a.svg",
+    "static/media/sessuologia.svg": "/static/media/sessuologia.7152f5f6.svg"
   }
 }
