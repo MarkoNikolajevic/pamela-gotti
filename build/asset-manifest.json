@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dc4d9dd.chunk.css",
-    "main.js": "/static/js/main.00798afa.chunk.js",
-    "main.js.map": "/static/js/main.00798afa.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.53ee23c3.chunk.js": "/static/js/2.53ee23c3.chunk.js",
-    "static/js/2.53ee23c3.chunk.js.map": "/static/js/2.53ee23c3.chunk.js.map",
+    "main.css": "/static/css/main.2b2c4b49.chunk.css",
+    "main.js": "/static/js/main.cf0d8b5f.chunk.js",
+    "main.js.map": "/static/js/main.cf0d8b5f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.51bab10e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.51bab10e.js.map",
+    "static/js/2.bfe42330.chunk.js": "/static/js/2.bfe42330.chunk.js",
+    "static/js/2.bfe42330.chunk.js.map": "/static/js/2.bfe42330.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2fc81d17fb5d37fde6c409257ab8bbb3.js": "/precache-manifest.2fc81d17fb5d37fde6c409257ab8bbb3.js",
+    "precache-manifest.7ef0a8b7c7e5e1c904bcb8c49d8b3be2.js": "/precache-manifest.7ef0a8b7c7e5e1c904bcb8c49d8b3be2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4dc4d9dd.chunk.css.map": "/static/css/main.4dc4d9dd.chunk.css.map",
+    "static/css/main.2b2c4b49.chunk.css.map": "/static/css/main.2b2c4b49.chunk.css.map",
+    "static/js/2.bfe42330.chunk.js.LICENSE.txt": "/static/js/2.bfe42330.chunk.js.LICENSE.txt",
     "static/media/disturbi.svg": "/static/media/disturbi.72e9461f.svg",
     "static/media/gravidanza.svg": "/static/media/gravidanza.3c1ae2fc.svg",
     "static/media/ipnosi.svg": "/static/media/ipnosi.b9f0b0dc.svg",
@@ -19,5 +20,11 @@
     "static/media/psicosomatica.svg": "/static/media/psicosomatica.a54d9e47.svg",
     "static/media/pubblicazioni.svg": "/static/media/pubblicazioni.86098a7a.svg",
     "static/media/sessuologia.svg": "/static/media/sessuologia.7152f5f6.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51bab10e.js",
+    "static/js/2.bfe42330.chunk.js",
+    "static/css/main.2b2c4b49.chunk.css",
+    "static/js/main.cf0d8b5f.chunk.js"
+  ]
 }
